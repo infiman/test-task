@@ -1,4 +1,4 @@
-const { multiplyOf } = require('../multiply-of');
+const multiplyOf = require('../multiply-of');
 
 describe('test', () => {
   describe('multiplyOf', () => {

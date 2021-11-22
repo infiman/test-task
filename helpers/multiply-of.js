@@ -1,4 +1,4 @@
-module.exports = (
+const multiplyOf = (
   value,
   multipliesDictionary = multiplyOf.DEFAULT_DICTIONARY
 ) => {
@@ -31,3 +31,5 @@ multiplyOf.DEFAULT_DICTIONARY = {
   5: 'N',
 };
 multiplyOf.cache = {};
+
+module.exports = multiplyOf;
